@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139142" started-at="2017-11-20T18:58:03Z" finished-at="2017-11-20T19:00:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="139142" started-at="2017-11-20T18:58:03Z" finished-at="2017-11-20T19:00:22Z">
+      <class name="script.DraftMailTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.DraftMailTest@7c16905e]" name="openApp" is-config="true" duration-ms="25107" started-at="2017-11-21T00:29:23Z" finished-at="2017-11-21T00:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testingDraftMail()[pri:0, instance:script.DraftMailTest@7c16905e]" name="testingDraftMail" duration-ms="32604" started-at="2017-11-21T00:29:48Z" finished-at="2017-11-21T00:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingDraftMail -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.DraftMailTest@7c16905e]" name="closeApp" is-config="true" duration-ms="1373" started-at="2017-11-21T00:30:20Z" finished-at="2017-11-21T00:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.DraftMailTest -->
+      <class name="script.ComposeMailTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.ComposeMailTest@1753acfe]" name="openApp" is-config="true" duration-ms="22810" started-at="2017-11-21T00:28:03Z" finished-at="2017-11-21T00:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testingcompose()[pri:0, instance:script.ComposeMailTest@1753acfe]" name="testingcompose" duration-ms="55775" started-at="2017-11-21T00:28:25Z" finished-at="2017-11-21T00:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingcompose -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.ComposeMailTest@1753acfe]" name="closeApp" is-config="true" duration-ms="1449" started-at="2017-11-21T00:29:21Z" finished-at="2017-11-21T00:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.ComposeMailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
